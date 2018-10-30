@@ -4,7 +4,7 @@
 
 body {
   background: #eceef1;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Montserrat', sans-serif;
   color: #333a45;
 }
 
@@ -21,16 +21,16 @@ body {
 }
 .header__title {
   margin: 0;
-  text-transform: uppercase;
-  font-size: 2.5em;
-  font-weight: 500;
+  font-size: 2em;
+  font-weight: 700;
   line-height: 1.1;
 }
 .header__subtitle {
   margin: 0;
-  font-size: 1em;
+  margin-top: 16px;
+  font-size: .8em;
   color: #949fb0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif
   font-weight: 500;
   line-height: 1.1;
 }
@@ -68,8 +68,8 @@ body {
   cursor: pointer;
   background-color: #949fb0;
   color: #eceef1;
-  font-size: 1.5em;
-  text-transform: uppercase;
+  font-size: 1.2em;
+
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
