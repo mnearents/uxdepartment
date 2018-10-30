@@ -86,14 +86,35 @@ body {
   width: 100%;
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
   color: #eceef1;
-  font-size: 1.5em;
+  font-size: 1em;
+  padding: 16px;
+}
+
+.card__expander ul{
+  list-style-type: none;
+  padding: 0;
 }
 
 .card__expander h3 {
-    font-size: 1em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.card__expander a {
+  font-size: 0.9em;
+  color: white;
+
+}
+
+.card__expander div {
+  border: 1px solid red;
+  padding: 16px;
+}
+
+.card__expander div.description {
+  width: 25%;
 }
 
 
