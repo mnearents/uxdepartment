@@ -117,14 +117,14 @@ body {
 }
 
 
-.card__expander .far {
+.card__expander .far, .card__expander .fas {
   font-size: 0.75em;
   position: absolute;
   top: 10px;
   right: 10px;
   cursor: pointer;
 }
-.card__expander .far:hover {
+.card__expander .far:hover, .card__expander .fas:hover {
   opacity: 0.9;
 }
 .card.is-collapsed .card__inner:after {
@@ -155,7 +155,7 @@ body {
   border-bottom: 15px solid #333a45;
 }
 .card.is-expanded .card__inner .far:before {
-  content: "\f00d";
+  content: "\f07c";
 }
 .card.is-expanded .card__expander {
   max-height: 1000px;
