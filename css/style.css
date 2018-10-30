@@ -117,7 +117,7 @@ body {
 }
 
 
-.card__expander .far, .card__expander .fas {
+.card__expander .far {
   font-size: 0.75em;
   position: absolute;
   top: 10px;
