@@ -108,6 +108,10 @@ body {
 
 }
 
+.card__expander a > i {
+  margin-right: 8px;
+}
+
 .card__expander div {
   padding: 16px;
 }
