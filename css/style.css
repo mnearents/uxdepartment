@@ -96,6 +96,10 @@ body {
   padding: 0;
 }
 
+.card__expander ul li {
+  margin-bottom: 12px;
+}
+
 .card__expander h3 {
   font-size: 0.75em;
   text-transform: uppercase;
