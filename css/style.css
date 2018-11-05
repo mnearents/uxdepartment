@@ -66,10 +66,9 @@ body {
   padding: 30px;
   position: relative;
   cursor: pointer;
-  background-color: #949fb0;
+  background-color: #D6DBE3;
   color: #2f2f2f;
   font-size: 1.2em;
-
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
