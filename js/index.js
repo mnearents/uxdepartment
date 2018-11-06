@@ -1,3 +1,5 @@
+//makes it so when you open a card, all the others are disabled, but that's annoying.
+
 //var $cell = $('.card');
 //
 ////open and close card when clicked on card
@@ -43,8 +45,6 @@ $cell.find('.js-expander').click(function() {
     $cell.not($thisCell).removeClass('is-expanded').addClass('is-collapsed');
     $thisCell.removeClass('is-collapsed').addClass('is-expanded');
     
-    
-
   } else {
     $thisCell.removeClass('is-expanded').addClass('is-collapsed');
     $cell.not($thisCell);
