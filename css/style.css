@@ -117,25 +117,30 @@ body {
 
 .card__expander div {
   padding: 16px;
+  font-size: .9em;
+}
+
+.card__expander div a {
+  text-decoration: none;
+}
+
+.card__expander div a:hover {
+  color: #FDB339;
 }
 
 .card__expander div.description {
   width: 30%;
-  font-size: .9em;
   border-right: 1px solid rgba(209,209,209,.3);
 }
 
 .card__expander div.templates {
   width: 30%;
-  font-size: .9em;
   border-right: 1px solid rgba(209,209,209,.3);
 }
 
 .card__expander div.links {
   width: 40%;
-  font-size: .9em;
 }
-
 
 .card__expander .far {
   font-size: 0.75em;
